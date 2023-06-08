@@ -52,9 +52,9 @@
         <div class="g1">
             <a href="/" class="logoContainer">
                 {#if darkModeState}
-                    <img class="logo" src="img/logo/pointlessproject_dark.png" alt="Pointless Project" width="600" height="213">
+                    <img class="logo" src="/img/logo/pointlessproject_dark.png" alt="Pointless Project" width="600" height="213">
                 {:else}
-                    <img class="logo" src="img/logo/pointlessproject_light.png" alt="Pointless Project" width="600" height="213">
+                    <img class="logo" src="/img/logo/pointlessproject_light.png" alt="Pointless Project" width="600" height="213">
                 {/if}
             </a>
         </div>
