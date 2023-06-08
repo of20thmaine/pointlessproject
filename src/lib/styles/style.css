@@ -1,0 +1,64 @@
+:root {
+    --logoMain: #8687bd;
+    --logoSecondary: #d4af37;
+
+    --bgColor: #1e1e1e;
+    --text-color: #dfdfdf;
+    --headerBorderColor: #767676;
+}
+
+:root[color-mode="light"] {
+    --bgColor: #fff;
+    --text-color: #333;
+    --headerBorderColor: #d8d8d8;
+}
+
+:root[color-mode="dark"] {
+    --bgColor: #1e1e1e;
+    --text-color: #dfdfdf;
+    --headerBorderColor: #767676;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bgColor);
+    color: var(--text-color);
+}
+
+p {
+    margin-bottom: 2.0rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    padding: 0 1.5em;
+}
+
+.p-big {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.p-med {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.p-narrow {
+    margin: 0 auto;
+    max-width: 660px;
+}
+
+@media only screen and (max-width: 742px) {
+    p {
+        margin-bottom: 1.75rem;
+        padding: 0 1.0em;
+    }
+}
