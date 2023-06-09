@@ -7,7 +7,7 @@
     </p>
     <p>
         In other news, I am currently seeking gainful employment, so if you or anybody you know are
-        looking for a software engineer to hire, <a href="https://www.bobbypalmer.dev/">out my portfolio</a>!
+        looking for a software engineer to hire, <a href="https://www.bobbypalmer.dev/">check out my portfolio</a>!
     </p>
 </div>
 
