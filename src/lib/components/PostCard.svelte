@@ -1,14 +1,20 @@
 <script lang="ts">
+    import * as postcards from "$lib/scripts/postcardimages";
+    import Img from '@zerodevx/svelte-img';
+
     export let url: string;
     export let post: Post;
+
+    // @ts-ignore
+    let cardImg = postcards[post.imgKey];
 </script>
 
 <a href={"blog/" + url}>
     <div class="card">
-        <img class="cardImg" src={"img/posts/postcards/" + post.imgPath} alt={post.title} width="400" height="300">
+        <Img src={cardImg} class="postcardImg" alt={post.title}/>
         <div class="cardText">
             <div class="title">{post.title}</div>
-            <div class="description">{post.metaDescription}</div>
+            <div class="description">{post.description}</div>
         </div>
     </div>
 </a>
@@ -19,10 +25,9 @@
         color: var(--text-color);
     }
 
-    .cardImg {
-        height: auto;
-        width: 100%; 
-        border-radius: 8px;
+    .card {
+        max-width: 400px;
+        margin: 0 auto;
     }
 
     .cardText {

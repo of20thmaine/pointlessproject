@@ -1,4 +1,7 @@
 <script lang="ts">
+    import logoDark from "$lib/img/logo/pointlessproject_dark.png?run&width=600&lqip=0";
+    import logoLight from "$lib/img/logo/pointlessproject_light.png?run&width=600&lqip=0";
+    import Img from '@zerodevx/svelte-img';
     import { onMount } from "svelte";
 
     let darkModeState = false;
@@ -52,9 +55,9 @@
         <div class="g1">
             <a href="/" class="logoContainer">
                 {#if darkModeState}
-                    <img class="logo" src="/img/logo/pointlessproject_dark.png" alt="Pointless Project" width="600" height="213">
+                    <Img src={logoDark} class="logo" alt="Pointless Project" />
                 {:else}
-                    <img class="logo" src="/img/logo/pointlessproject_light.png" alt="Pointless Project" width="600" height="213">
+                    <Img src={logoLight} class="logo" alt="Pointless Project" />
                 {/if}
             </a>
         </div>
@@ -82,7 +85,7 @@
                         <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
                     </svg>
                 </a>
-                <a class="navBtn" id="darkModeToggle" title="Toggle Dark/Light Modes">
+                <div class="navBtn" id="darkModeToggle" title="Toggle Dark/Light Modes">
                     <svg class="navSVG" id="darkModeSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" stroke-width="1" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <path data-name="layer2"
                             d="M36.4 20.4a16 16 0 1 0 16 16 16 16 0 0 0-16-16zm0 28a12 12 0 0 1-10.3-5.8l2.5.3A13.7 13.7 0 0 0 42 25.8a12 12 0 0 1-5.6 22.6z"></path>
@@ -90,7 +93,7 @@
                             d="M36.4 16.4a2 2 0 0 0 2-2v-8a2 2 0 1 0-4 0v8a2 2 0 0 0 2 2zm-20 20a2 2 0 0 0-2-2h-8a2 2 0 0 0 0 4h8a2 2 0 0 0 2-2zm3-14.1a2 2 0 0 0 2.8-2.8l-5.7-5.7a2 2 0 0 0-2.8 2.8zM59 13.8a2 2 0 0 0-2.8 0l-5.7 5.7a2 2 0 1 0 2.8 2.8l5.7-5.7a2 2 0 0 0 0-2.8zM19.4 50.5l-5.7 5.7a2 2 0 1 0 2.9 2.8l5.7-5.7a2 2 0 1 0-2.8-2.8z">
                         </path>
                     </svg>
-                </a>
+                </div>
             </div>
         </div>
         <div class="g3 siteDescription">The site about nothing.</div>
@@ -133,11 +136,6 @@
     .logoContainer {
         display: block;
         max-width: 440px;
-        height: auto;
-    }
-
-    .logo {
-        width: 100%;
         height: auto;
     }
 
@@ -290,25 +288,6 @@
 
         .siteDescription {
             font-size: 1.2rem;
-        }
-    }
-
-    @media only screen and (max-width: 570px) {
-        .header {
-            padding: 1.0rem;
-        }
-
-        nav {
-            font-size: 1.1rem;
-        }
-
-        .navBtn {
-            height: 24px;
-            width: 24px;
-        }
-
-        .siteDescription {
-            font-size: 1.1rem;
         }
     }
 </style>

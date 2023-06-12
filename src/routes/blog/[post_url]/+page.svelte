@@ -1,12 +1,17 @@
 <script lang="ts">
+    import * as headers from "$lib/scripts/headerimages";
+    import Img from '@zerodevx/svelte-img';
     import type { PageData } from './$types';
-
+    
     export let data: PageData;
+
+    // @ts-ignore
+    let postImg = headers[data.post.imgKey];
 </script>
 
 <svelte:head>
     <title>{data.post.title}</title>
-    <meta name="description" content={data.post.metaDescription}/>
+    <meta name="description" content={data.post.description}/>
 </svelte:head>
 
 <div class="articleHeader p-narrow">
@@ -15,7 +20,7 @@
 </div>
 
 <div class="p-med">
-    <img class="headerImg" src={"/img/posts/headers/" + data.post.imgPath} alt={data.post.title} width="1200" height="800">
+    <Img src={postImg} alt={data.post.title} class="headerImg"/>
 </div>
 
 <div class="p-narrow">
@@ -48,17 +53,6 @@
 
     .articleAuthor a {
         color: var(--text-color);
-    }
-
-    .headerImg {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2.0rem;
-        margin-bottom: 2.0rem;
-        border-radius: 8px;
     }
 
     @media only screen and (max-width: 742px) {

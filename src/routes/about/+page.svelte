@@ -1,5 +1,12 @@
+<script lang="ts">
+    import aboutImg from "$lib/img/author/author.png?run&width=400&lqip=0";
+    import Img from '@zerodevx/svelte-img';
+</script>
+
 <div class="p-narrow">
-    <img class="authorImg" src="/img/author/author.png" alt="Bobby" width="400" height="400">
+    <!-- <img class="authorImg" src="/img/author/author.png" alt="Bobby" width="400" height="400"> -->
+    <Img src={aboutImg} class="authorImg" alt="Bobby" />
+
     <h1>About</h1>
     <p>
         Hi y'all, I'm Bobby, the Pointless Project Guy. For an accounting of what this site is all about
@@ -16,13 +23,13 @@
         margin: 2.0rem;
     }
 
-    .authorImg {
+    /* .authorImg {
         float: right;
         width: 40%;
         height: auto;
         border-radius: 50%;
         padding: 1.5rem;
-    }
+    } */
 
     p a {
         color: var(--text-color);

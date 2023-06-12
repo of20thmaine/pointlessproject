@@ -1,8 +1,8 @@
 ---
 title: The Suicide of Mr. Miller - Chapter 1
-date: "06-01-2023"
-imgPath: "mr-miller-1.png"
-metaDescription: Oh modern reader, what can I say to you? What can I say to you that will shock you and disturb you?
+date: 06-01-2023
+description: Oh modern reader, what can I say to you? What can I say to you that will shock you and disturb you?
+imgKey: post2
 ---
 
 Oh modern reader, what can I say to you? What can I say to you that will shock you and disturb you?
