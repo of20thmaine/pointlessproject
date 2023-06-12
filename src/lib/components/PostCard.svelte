@@ -25,6 +25,11 @@
         color: var(--text-color);
     }
 
+    .card {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
     .cardText {
         text-align: center;
         font-size: 1.1rem;
