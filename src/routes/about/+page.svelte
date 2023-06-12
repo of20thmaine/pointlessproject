@@ -3,10 +3,15 @@
     import Img from '@zerodevx/svelte-img';
 </script>
 
-<div class="p-narrow">
-    <!-- <img class="authorImg" src="/img/author/author.png" alt="Bobby" width="400" height="400"> -->
-    <Img src={aboutImg} class="authorImg" alt="Bobby" />
+<svelte:head>
+    <title>About Pointless Project</title>
+    <meta name="description" content="About Pointless Project"/>
+    <meta name="og:title" content="About Pointless Project"/>
+    <meta name="og:description" content="About Pointless Project"/>
+</svelte:head>
 
+<div class="p-narrow">
+    <Img src={aboutImg} class="authorImg" alt="Bobby" loading="eager"/>
     <h1>About</h1>
     <p>
         Hi y'all, I'm Bobby, the Pointless Project Guy. For an accounting of what this site is all about
@@ -22,14 +27,6 @@
     h1 {
         margin: 2.0rem;
     }
-
-    /* .authorImg {
-        float: right;
-        width: 40%;
-        height: auto;
-        border-radius: 50%;
-        padding: 1.5rem;
-    } */
 
     p a {
         color: var(--text-color);
