@@ -11,7 +11,7 @@
 
 <a href={"blog/" + url}>
     <div class="card">
-        <Img src={cardImg} class="postcardImg" alt={post.title}/>
+        <Img src={cardImg} class="postcardImg" alt={post.title} loading="eager" />
         <div class="cardText">
             <div class="title">{post.title}</div>
             <div class="description">{post.description}</div>

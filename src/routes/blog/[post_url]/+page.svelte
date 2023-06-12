@@ -20,7 +20,7 @@
 </div>
 
 <div class="p-med">
-    <Img src={postImg} alt={data.post.title} class="headerImg"/>
+    <Img src={postImg} alt={data.post.title} class="headerImg" loading="eager"/>
 </div>
 
 <div class="p-narrow">

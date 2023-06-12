@@ -55,9 +55,9 @@
         <div class="g1">
             <a href="/" class="logoContainer">
                 {#if darkModeState}
-                    <Img src={logoDark} class="logo" alt="Pointless Project" />
+                    <Img src={logoDark} class="logo" alt="Pointless Project" loading="eager" />
                 {:else}
-                    <Img src={logoLight} class="logo" alt="Pointless Project" />
+                    <Img src={logoLight} class="logo" alt="Pointless Project" loading="eager" />
                 {/if}
             </a>
         </div>
