@@ -1,8 +1,8 @@
 ---
 title: Hello World
-date: "05-27-2023"
-imgPath: "hello-world.png"
-metaDescription: Why does this site exist? What is its purpose? Who the hell are you? Answers here.
+date: 05-27-2023
+description: Why does this site exist? What is its purpose? Who the hell are you? Answers here.
+imgKey: post0
 ---
 
 Hello world! I'm Bobby, the creator of Pointless Project. While I'm tempted to say this site has no purpose for existing, that wouldn't quite be true.

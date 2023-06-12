@@ -1,6 +1,11 @@
 interface Post {
     title: string;
     date: string;
-    imgPath: string;
-    metaDescription: string;
+    description: string;
+    imgKey: string;
 }
+
+declare module '$lib/img/*' {
+    const meta: Object[]
+    export default meta
+  }

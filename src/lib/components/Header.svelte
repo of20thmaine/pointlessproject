@@ -1,4 +1,7 @@
 <script lang="ts">
+    import logoDark from "$lib/img/logo/pointlessproject_dark.png?run&width=600&lqip=0";
+    import logoLight from "$lib/img/logo/pointlessproject_light.png?run&width=600&lqip=0";
+    import Img from '@zerodevx/svelte-img';
     import { onMount } from "svelte";
 
     let darkModeState = false;
@@ -52,9 +55,9 @@
         <div class="g1">
             <a href="/" class="logoContainer">
                 {#if darkModeState}
-                    <img class="logo" src="/img/logo/pointlessproject_dark.png" alt="Pointless Project" width="600" height="213">
+                    <Img src={logoDark} class="logo" alt="Pointless Project" />
                 {:else}
-                    <img class="logo" src="/img/logo/pointlessproject_light.png" alt="Pointless Project" width="600" height="213">
+                    <Img src={logoLight} class="logo" alt="Pointless Project" />
                 {/if}
             </a>
         </div>
@@ -133,11 +136,6 @@
     .logoContainer {
         display: block;
         max-width: 440px;
-        height: auto;
-    }
-
-    .logo {
-        width: 100%;
         height: auto;
     }
 

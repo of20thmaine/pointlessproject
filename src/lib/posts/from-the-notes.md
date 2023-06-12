@@ -1,8 +1,8 @@
 ---
 title: From the Notes
-date: "05-28-2023"
-imgPath: "from-the-notes.png"
-metaDescription: Is infinite torture the only future we can expect from creator's who love us?
+date: 05-28-2023
+description: Is infinite torture the only future we can expect from creator's who love us?
+imgKey: post1
 ---
 
 The Mad King ordered the arrest of his favorite composer. The composer, a man, was brought to a cell in the dungeons of the King's palace. He was promptly beaten, and after some time in isolation, the Mad King came before him, bringing with him the composer's wife and children.
