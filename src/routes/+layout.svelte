@@ -5,13 +5,5 @@
 </script>
 
 <Header />
-<article>
-    <slot />
-</article>
+<slot />
 <Footer />
-
-<style>
-    article {
-        font-family: 'Lora', 'Garamond', serif;
-    }
-</style>

@@ -6,6 +6,6 @@ interface Post {
 }
 
 declare module '$lib/img/*' {
-    const meta: Object[]
-    export default meta
-  }
+    const meta: Object[];
+    export default meta;
+}
