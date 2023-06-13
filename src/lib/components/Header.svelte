@@ -55,9 +55,9 @@
         <div class="g1">
             <a href="/" class="logoContainer">
                 {#if darkModeState}
-                    <Img src={logoDark} class="logo" alt="Pointless Project" loading="eager" />
+                    <Img src={logoDark} class="logo" alt="Pointless Project" loading="eager"/>
                 {:else}
-                    <Img src={logoLight} class="logo" alt="Pointless Project" loading="eager" />
+                    <Img src={logoLight} class="logo" alt="Pointless Project" loading="eager"/>
                 {/if}
             </a>
         </div>
@@ -68,6 +68,8 @@
                     <li><a href="/about">About</a></li>
                 </ul>
             </nav>
+        </div>
+        <div class="g3">
             <div class="navBtns">
                 <a href="https://www.instagram.com/bobby.palmer/" class="navBtn" title="Instagram">
                     <svg class="navSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -96,7 +98,7 @@
                 </div>
             </div>
         </div>
-        <div class="g3 siteDescription">The site about nothing.</div>
+        <div class="g4 siteDescription">The site about nothing.</div>
     </div>
 </div>
 
@@ -115,7 +117,8 @@
         grid-template-columns: 1fr max-content;
         grid-template-areas:
             "g1 g2"
-            "g1 g3";
+            "g1 g3"
+            "g1 g4";
     }
 
     .g1 {
@@ -130,6 +133,11 @@
 
     .g3 {
         grid-area: g3;
+        align-self: center;
+    }
+
+    .g4 {
+        grid-area: g4;
         align-self: start;
     }
 
@@ -182,8 +190,8 @@
         border: 2px solid transparent;
         border-radius: 50%;
         background-color: transparent;
-        height: 34px;
-        width: 34px;
+        height: 38px;
+        width: 38px;
     }
 
     .navSVG {
@@ -239,10 +247,6 @@
             max-width: 380px;
         }
 
-        nav {
-            font-size: 1.3rem;
-        }
-
         .siteDescription {
             font-size: 1.3rem;
         }
@@ -253,7 +257,8 @@
             padding: 1.25rem 1.25rem 1.0rem 1.25rem;
             grid-template-areas:
                 "g1 g2"
-                "g3 g3";
+                "g1 g3"
+                "g4 g4";
         }
 
         .logoContainer {
@@ -267,26 +272,46 @@
         }
 
         .siteDescription {
-            margin-top: 0.5rem;
             text-align: center;
         }
     }
 
-    @media only screen and (max-width: 570px) {
-        nav {
-            font-size: 1.2rem;
+    @media only screen and (max-width: 536px) {
+        .header {
+            grid-template-areas:
+                "g1 g2"
+                "g3 g3"
+                "g4 g4";
         }
 
         .logoContainer {
-            max-width: 280px;
+            max-width: 240px;
         }
 
-        .navBtn {
-            height: 28px;
-            width: 28px;
+        nav {
+            font-size: 1.4rem;
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+        .logoContainer {
+            max-width: 220px;
+        }
+    }
+
+    @media only screen and (max-width: 375px) {
+        .logoContainer {
+            max-width: 200px;
         }
 
-        .siteDescription {
+        nav {
+            font-size: 1.3rem;
+        }
+    }
+
+    @media only screen and (max-width: 339px) {
+        nav {
+            margin-left: 8px;
             font-size: 1.2rem;
         }
     }
