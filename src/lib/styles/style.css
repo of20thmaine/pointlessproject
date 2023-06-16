@@ -91,4 +91,8 @@ p {
         margin-bottom: 1.75rem;
         padding: 0 1.0em;
     }
+
+    .headerImg {
+        border-radius: 0;
+    }
 }
