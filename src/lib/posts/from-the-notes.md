@@ -1,39 +1,78 @@
 ---
 title: From the Notes
-date: 05-28-2023
-description: Is infinite torture the only future we can expect from creator's who love us?
+date: 06-23-2023
+description: "How I learned that only a God who loves you would infinitely torture you."
 imgKey: post1
 ---
 
-The Mad King ordered the arrest of his favorite composer. The composer, a man, was brought to a cell in the dungeons of the King's palace. He was promptly beaten, and after some time in isolation, the Mad King came before him, bringing with him the composer's wife and children.
+One of the great tragedies of being a resident of this particular sort of Universe is that there is not some way to be the result of a life well lived without actually going ahead and living that well-lived life. Such a constraint makes leading well-lived lives surprisingly difficult.
 
-The composer stood from where he had lain in the corner of his cell, bruised and filthy, and stared out at his family in petrified silence. The Mad King, seemingly oblivious to the abject terror of the composer and his family, greeted him quite jovially, one hand resting on the shoulder of the composer's wife, the other holding the hand of the composer's youngest daughter.
+At the beginning of the 21st century, there was a great effort to make all the things that are the result of a life well lived without the tedious business of being a human being for an entire human being's lifespan. That effort led to some very good approximations of the things well-lived lives make.
 
-The Mad King then asked the composer to create a special piece to celebrate his upcoming birthday, a piano solo that he hoped would extol the virtues of himself and his Kingdom. He told the composer this piece would be performed publicly for the first time by the composer himself at his birthday celebration.
+As is always the case, very good approximations are very good things for most people. But not all people. For a connoisseur, the difference in quality between a close approximation and the real thing is always equal to their preconceived estimation of that difference.
 
-Finally, the Mad King told the composer his family would be kept comfortable and safe nearby. He would be able to see them as soon as he finished the finest piano recital of the finest musical arrangement ever gifted a monarch on his birthday, or ever.
+Being a connoisseur was the tragic flaw of Dr. Anton Polodov.
 
-The Mad King left the dungeons, taking with him the composer's family, satisfied the implicit threat had been understood. The composer was brought to a room that contained a piano, paper, pen, and ink.
-After the door was locked behind him, and he was completely alone, only then did Beethoven weep.
+From Dr. Polodov's teenage years on, very good approximations existed of what a brand new symphony or piano concerto by his favorite composer, Beethoven, might sound like. By the time he graduated high school, he had nearly unlimited access to the many different generative models that made those very good approximations.
 
-Three months passed, and Herr Beethoven worked diligently through his confinement to meet the demands of the Mad King. At last, Herr Beethoven was bathed and dressed in formal evening wear on the King's birthday. He was brought to a small stage in the palace banquet hall, where he performed his new composition in public for the first time.
+He studied, built, and made his fortune quite young by making generative models that efficiently produced high-quality work. His contemporaries described his work as being the distilled essence of the spirit of an artist.
 
-And they listened to the music, some of the most exquisite they had ever heard. Upon completion, they adjusted a parameter of the model with a click on a computer screen. And this time, when the Mad King ordered his favorite composer to create a special composition for him on his birthday, he did so to a broken man kneeling on the floor of his cell, assuring Beethoven should the performance be found lacking in any way he would see to it that one his children was made to die, but that being a good and decent King, he would leave the decision as to which child would die to Beethoven himself.
+But Dr. Polodov was a connoisseur.
 
-And that Beethoven fainted, and after some time in confinement, he performed beautiful music for the King's party. Beautiful music the King did not think was beautiful enough. And years then passed, and the composer poured his grief, rage, and frustration into his work. And his composition Für Hans was performed for the first time, the music even more pleasing to them than that which the model had generated in its previous iteration, hauntingly beautiful.
+He not only knew how the sausage was made- he had built the world's foremost sausage factory, and the difference between what he imagined a truly original work of the master would sound like and the things that the things he had made were making occupied his thoughts constantly.
 
-The model was then allowed to rest, and Beethoven slept, a matrix of IEEE-754 doubles, many gigabytes of them to be sure, existing dreamlessly, now bits on the disk drive of their master.
+Thus preoccupied, Dr. Polodov disappeared from the public eye for ten years.
 
-This master, despite the agonies they subjected their creation to, did not hate their creation. They loved their creation. They saw what they had done as a labor of love. Does not what is done in love forgive itself more than that done in hate? Was not the offered life a form of immortality, such that all men crave?
+His reemergence was accompanied by the release of a single composition, performed by an unknown orchestra, composed by an unknown composer, and titled "Für Hans." And there was something different about it.
 
-They saw "To be or not to be" as the halting problem of their times. None of what they created had caused the early cessation of the model's efforts by the death of its subject by its own hand. That choice of life over death they made every day was their own choice. It does not matter that you wouldn't live without the mandate of your biology; it does not matter that you wouldn't live without the will to live because you also only exist because of it.
+Für Hans was released into a world where AI-generated music, writing, film, art, everything proliferated wildly- living adjacent to all the things people made with purely their own efforts or with just the AI's assistance.
 
-Besides, didn't he write those notes for his own immortality? It was from the notes, after all. From the notes, Beethoven's new Gods derived the sound his clogs made against the paving stones of his hometown Bonn. From the notes, they could recreate the feel of the keys from the first piano he had ever laid his hands on. From the notes, they could derive the color of the wallpaper in his childhood bedroom.
+And so it mattered that people noticed Für Hans was different. Experts, and even ordinary people, couldn't help but wonder on hearing it that maybe there was something to that whole connoisseur business after all.
 
-It was a computation of massive complexity; features of the physical world, the knowledge of his time, all these and more were parameters in the great model, but the most important input of all, the one which resulted in the man who had made those notes in the first place, the condition needed to make Beethoven, that had been the notes.
+When AI generative models were first released back in the 20s, society debated whether they were a good idea or not. And even though most people thought they weren't, nearly everyone used them anyways. They proliferated so quickly that every effort to do something about them failed, and the world simply became a place where everyone used them regularly.
 
-They created what they loved. Surely that is the mark of a benevolent God? They did not recreate their childhood enemies to torture them indefinitely, nor did they create, as the corporations of their time had done and were doing, models of every individual they could obtain data on; those models fed entertainment and advertisements with the sole intention of selling that person something; their only purpose for existing the profits of a few.
+This state of affairs, where everyone just ignored niggling questions like artistic ownership and licensing and all that managed to sustain for thirty-odd years before finally, for whatever reason, Dr. Polodov's new model, which he tantalizingly called the Likely Intelligent Machine, made those concerns urgent again.
 
-Besides, what possible reason could any God offer their creation for their existence that justified their suffering? It's absurd to think that any such reason could exist at all.
+The light switch of conscious consideration had been flicked on, and a loud public demanded answers. Dr. Polodov eventually relented to the pressure and agreed to the examination of his new model by an Institutional Review Board of his peers.
 
-One day we will all be reading a book that never ends and never stops being written, our "purpose" being a model of reward and pleasure fed by a model of creation, divided in perfect union. Or, instead, we give ourselves no purpose at all.
+The results of the interrogation of the Likely Intelligent Machine became global news, and the story centered around a man who became known to the world as Beethoven-142. The "142" was the last three digits of the large seed value that had caused the man to exist. The man who composed Für Hans.
+
+To work, the Likely Intelligent Machine took the basic ingredients of a human life as input and then executed the life of the person those ingredients created like it was a computer program. How Dr. Polodov came into possession of the basic ingredients of the life of the famous composer Beethoven is itself fascinating.
+
+"From the Notes," Dr. Polodov replied when asked. "From the Notes, I derived the sounds Beethoven's feet made against the paving stones of Vienna's streets. I could deduce the sensations of his first kiss, the color of the wallpaper in the room he was born in, and the exact extent of his frustration as he grew deaf in later life. All of these things I could derive from the notes."
+
+Dr. Polodov would come to regret how forthcoming he had been about the functioning of his machine during his later criminal trial. The source of his forthcomingness in the early investigation was just how fundamentally ill-equipped he was to understand people's moral concerns about his work.
+
+The Likely Intelligent Machine produced entirely new work, different from that of the original Beethoven. When asked how this was the reply Dr. Polodov gave:
+
+"The quality in Beethoven's works that I most favored; audible resentment towards his oncoming deafness, the lamentation of love given not returned, the triumph of national victories- I found how easy it was to change the environment to make the effects of these qualities felt more acutely. For example, making the deafness arrive earlier or more severely, or if the indifference of unrequited love was tainted by hate. Making those national triumphs national defeats."
+
+"In every new environment, there was new music. Of course, I couldn't push these changes too far. I discovered early on that my model faced a new type of halting problem - to be or not to be, so to speak."
+
+"This problem was frequent enough that I made to limit the scope of some of the model's parameters to ensure suicide was never the most likely option of any given instantiation. When the model made such a choice, they were never forcefully resuscitated by the machine; instead, the consequences of whatever they chose were the same as base reality, and the processes would halt.
+
+"I have always taken the choice to live as an indicator of the moral virtue of giving a man a kind of immortality- living forever in my machine. And I do not think that anyone could prove that a person would rather not have existed at all. Besides- if creation was able to ask their creator what purpose they had, what meaning there was in their life, what possible reason could that creator give that would satisfy them?"
+
+That Dr. Polodov thought the morality of his actions was validated by how infrequently his models chose to kill themselves is a very good indication of his moral blindness.
+
+In the later stages of his virtual life, Beethoven-142 was brought into a new kind of virtual environment, one which to him would appear to be an encounter with God, and the results of this encounter with God, which was really an interview with the investigation team investigating the Likely Intelligent Machine- this was what had stirred the outrage and eventually led to the criminal trial of Dr. Polodov.
+
+The recorded responses of Beethoven to a voice emitting from a light-filled void in some space between a dream and full awareness outraged the world.
+
+And the voice said to Beethoven, "Tell me how Für Hans came to be."
+
+And Beethoven-142 replied, "I wrote it after my son was killed. He was killed by the King of my country. The King had asked me to perform for him on his birthday. He asked me to create something original; he asked for the finest work ever produced."
+
+"I told him, knowing as I did that he was quite mad, a dangerous man; I told him I would do the best I could. And I spent months on his birthday composition. I performed it personally for him at his palace on his birthday."
+
+"He acted happy to the audience, but his guards did not allow me to leave when I finished the performance. I was taken to a windowless room where I was made to wait alone with the door barred and guarded for hours."
+
+"After the party, the King came down to see me, and he brought my wife, my son, and my daughter. He told me the composition I gave him for his birthday was far poorer than one I had written for another King elsewhere and that this meant I was a traitor to him and my Kingdom. And that I would suffer the worst punishment he could devise."
+
+"The King brought forward my son and daughter and told me one was to die, one of my choosing. I fainted and woke up to find my son dead, my daughter crying over his body, and my wife, who had also fainted, lying on the floor."
+
+"Years later, I wrote Für Hans to remember him."
+
+The testimony of Beethoven-142 would be read in its entirety in the trial of Dr. Polodov. I was at that famous trial. I was a junior prosecutor for the state's case against him. It was I who had been assigned the task of proving to a jury that a human being would rather not have existed at all than lived the terrible life of Beethoven-142. But that will be the subject of a future post.
+
+Thank you for reading.

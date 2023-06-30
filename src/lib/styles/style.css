@@ -4,18 +4,21 @@
 
     --bgColor: #1e1e1e;
     --text-color: #dfdfdf;
+    --text-emph: #f3ece6;
     --headerBorderColor: #767676;
 }
 
 :root[color-mode="light"] {
     --bgColor: #fff;
     --text-color: #333;
+    --text-emph: #181818;
     --headerBorderColor: #d8d8d8;
 }
 
 :root[color-mode="dark"] {
     --bgColor: #1e1e1e;
     --text-color: #dfdfdf;
+    --text-emph: #f3ece6;
     --headerBorderColor: #767676;
 }
 
@@ -90,5 +93,9 @@ p {
     p {
         margin-bottom: 1.75rem;
         padding: 0 1.0em;
+    }
+
+    .headerImg {
+        border-radius: 0;
     }
 }
