@@ -14,11 +14,11 @@
 <div class="p-narrow">
     <div class="postList">
         <h1>Post List</h1>
-        <ol class="posts">
+        <ul class="posts">
             {#each data.posts as post, i}
                 <li class="postLink"><a href={"blog/" + post.slug}>{post.title}</a></li>
             {/each}
-        </ol>
+        </ul>
     </div>
 </div>
 
@@ -32,7 +32,7 @@
         font-size: 2.0rem;
     }
 
-    ol li {
+    ul li {
         list-style-position: inside;
     }
 

@@ -4,7 +4,6 @@
     import type { PageData } from './$types';
     
     export let data: PageData;
-
     // @ts-ignore
     let postImg = headers[data.post.imgKey];
 </script>
@@ -22,7 +21,7 @@
 </div>
 
 <div class="p-med">
-    <Img src={postImg} alt={data.post.title} class="headerImg" loading="eager"/>
+    <Img src={postImg} alt={data.post.title} class="headerImg" loading="eager" width={1200} height={800}/>
 </div>
 
 <div class="p-narrow">
