@@ -2,7 +2,7 @@
 title: From the Notes
 date: 06-23-2023
 description: "How I learned that only a God who loves you would infinitely torture you."
-imgKey: post1
+imgKey: post2
 ---
 
 One of the great tragedies of being a resident of this particular sort of Universe is that there is not some way to be the result of a life well lived without actually going ahead and living that well-lived life. Such a constraint makes leading well-lived lives surprisingly difficult.

@@ -13,6 +13,7 @@
     <meta name="description" content={data.post.description}/>
     <meta name="og:title" content={data.post.title}/>
     <meta name="og:description" content={data.post.description}/>
+    <meta name="og:image" content={"https://pointlessproject.com/img/og/" + data.post.imgKey + ".png"}/>
 </svelte:head>
 
 <div class="articleHeader p-narrow">
