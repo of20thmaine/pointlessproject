@@ -17,10 +17,6 @@
         Hi y'all, I'm Bobby, the Pointless Project Guy. For an accounting of what this site is all about
         and why I created it, check out <a href="blog/hello-world">post 0</a>! 
     </p>
-    <p>
-        In other news, I am currently seeking gainful employment, so if you or anybody you know are
-        looking for a software engineer to hire, <a href="https://www.bobbypalmer.dev/">check out my portfolio</a>!
-    </p>
 </div>
 
 <style>
