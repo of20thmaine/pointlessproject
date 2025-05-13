@@ -17,6 +17,9 @@
         Hi y'all, I'm Bobby, the Pointless Project Guy. For an accounting of what this site is all about
         and why I created it, check out <a href="blog/hello-world">post 0</a>! 
     </p>
+    <p>
+        Actively exploring new opportunities. Let’s connect—email me to start a conversation!
+    </p>
 </div>
 
 <style>
